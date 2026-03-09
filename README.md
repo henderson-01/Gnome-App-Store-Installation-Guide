@@ -59,7 +59,7 @@ reboot
 
 ## 🛍️ How to Use Your New Store
 
-1. Search your applications for **"Software"**.
+1. Search your applications for **Software**.
 * *Note: You will now see two stores. Use the **white shopping bag** icon for the universal experience.*
 
 
@@ -77,8 +77,8 @@ reboot
 
 ## 💡 Troubleshooting
 
-**"The store is empty!"**
-If the store appears empty or search results aren't appearing after the first reboot, give it a few minutes to download metadata in the background. You can force a refresh by running:
+**If the store is empty!**
+Sometimes store appears empty or search results aren't appearing after the first reboot, give it a few minutes to download metadata in the background. You can force a refresh by running:
 
 ```bash
 flatpak update
@@ -88,7 +88,7 @@ flatpak update
 ---
 
 **Ubuntu is the future of computing. 🌩️**
----
+
 
 ## ⚠️ Disclaimer
 
