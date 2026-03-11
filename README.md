@@ -21,7 +21,6 @@ Before starting, ensure you have:
 Ensure your package database is current to avoid installation conflicts:
 ```bash
 sudo apt update && sudo apt upgrade -y
-
 ```
 
 ### Step 2: Install GNOME Software & Multi-Format Support
@@ -30,7 +29,6 @@ This command installs the store interface and the plugins required to handle bot
 
 ```bash
 sudo apt install gnome-software gnome-software-plugin-flatpak gnome-software-plugin-snap flatpak -y
-
 ```
 
 * **gnome-software**: The graphical store interface.
@@ -42,8 +40,7 @@ sudo apt install gnome-software gnome-software-plugin-flatpak gnome-software-plu
 Enable the world's largest Flatpak repository:
 
 ```bash
-flatpak remote-add --if-not-exists flathub [https://flathub.org/repo/flathub.flatpakrepo](https://flathub.org/repo/flathub.flatpakrepo)
-
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
 ### Step 4: Restart Your System (Crucial!)
@@ -52,7 +49,6 @@ For the store to properly index the new repositories and integrate the "Source" 
 
 ```bash
 reboot
-
 ```
 
 ---
@@ -78,18 +74,26 @@ reboot
 ## 💡 Troubleshooting
 
 **If the store is empty!**
-Sometimes store appears empty or search results aren't appearing after the first reboot, give it a few minutes to download metadata in the background. You can force a refresh by running:
+Sometimes the store appears empty or search results aren't appearing after the first reboot, give it a few minutes to download metadata in the background. You can force a refresh by running:
 
 ```bash
 flatpak update
-
 ```
 
 ---
 
-**Ubuntu is the future of computing. 🌩️**
+## 🧹 (Optional) Uninstall the Ubuntu App Center 
+If you prefer to use GNOME Store exclusively and want to remove the default Ubuntu App center to avoid confusion:
 
+```Bash
+sudo snap remove snap-store
+```
+> [!TIP]
+> This only removes the storefront app. Any apps you previously installed via Snap will remain installed and will now be manageable through your new universal store the **GNOME Store**.
 
 ## ⚠️ Disclaimer
 
-This is provided "as is" without warranty of any kind. I am not responsible for any damage, data loss, or issues caused by the use of this Information. **Use it at your own risk.** 
+This is provided "as is" without warranty of any kind. I am not responsible for any damage, data loss, or issues caused by the use of this information. **Use it at your own risk.** 
+___
+
+**Ubuntu is the future of computing. 🌩️** 
