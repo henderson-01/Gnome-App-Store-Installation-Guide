@@ -9,6 +9,7 @@ By default, Ubuntu’s "App Center" focuses heavily on Snaps. This guide helps y
 ## 📋 Prerequisites
 
 Before starting, ensure you have:
+
 * A computer running **Ubuntu** (20.04, 22.04, 24.04, or newer).
 * An active **internet connection**.
 * **Sudo** (administrative) privileges.
@@ -18,7 +19,9 @@ Before starting, ensure you have:
 ## 🛠️ Installation Steps
 
 ### Step 1: Update Your System
+
 Ensure your package database is current to avoid installation conflicts:
+
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
@@ -56,15 +59,14 @@ reboot
 ## 🛍️ How to Use Your New Store
 
 1. Search your applications for **Software**.
+
 * *Note: You will now see two stores. Use the **white shopping bag** icon for the universal experience.*
 
+1. **Switching Between Formats:**
 
-2. **Switching Between Formats:**
 * Search for an app (e.g., *Discord* or *VLC*).
 * Click on the application to open its details page.
 * In the top-right corner (or under the "Install" button), use the **Source dropdown menu** to choose between **Flatpak (Flathub)**, **Snap Store**, or **Ubuntu (deb)**.
-
-
 
 > [!TIP]
 > **Flatpaks** are often updated faster than Snaps or .debs, making them ideal for the latest versions of apps like GIMP, OBS Studio, or Inkscape.
@@ -82,18 +84,17 @@ flatpak update
 
 ---
 
-## 🧹 (Optional) Uninstall the Ubuntu App Center 
+## 🧹 (Optional) Uninstall the Ubuntu App Center
+
 If you prefer to use GNOME Store exclusively and want to remove the default Ubuntu App center to avoid confusion:
 
 ```Bash
 sudo snap remove snap-store
 ```
+
 > [!TIP]
 > This only removes the storefront app. Any apps you previously installed via Snap will remain installed and will now be manageable through your new universal store the **GNOME Store**.
 
 ## ⚠️ Disclaimer
 
-This is provided "as is" without warranty of any kind. I am not responsible for any damage, data loss, or issues caused by the use of this information. **Use it at your own risk.** 
-___
-
-**Ubuntu is the future of computing. 🌩️** 
+This is provided "as is" without warranty of any kind. I am not responsible for any damage, data loss, or issues caused by the use of this information. **Use it at your own risk.**
