@@ -58,11 +58,12 @@ reboot
 
 ## 🛍️ How to Use Your New Store
 
-1. Search your applications for **Software**.
+* Search your applications for **Software**.
 
-* *Note: You will now see two stores. Use the **white shopping bag** icon for the universal experience.*
+>[!NOTE]
+> You will now see two stores. Use the **white shopping bag** icon for the universal experience.
 
-1. **Switching Between Formats:**
+* **Switching Between Formats:**
 
 * Search for an app (e.g., *Discord* or *VLC*).
 * Click on the application to open its details page.
