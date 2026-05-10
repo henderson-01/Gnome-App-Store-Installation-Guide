@@ -93,9 +93,12 @@ If you prefer to use GNOME Store exclusively and want to remove the default Ubun
 sudo snap remove snap-store
 ```
 
-> [!TIP]
+> [!NOTE]
 > This only removes the storefront app. Any apps you previously installed via Snap will remain installed and will now be manageable through your new universal store the **GNOME Store**.
+
+---
 
 ## ⚠️ Disclaimer
 
-This is provided "as is" without warranty of any kind. I am not responsible for any damage, data loss, or issues caused by the use of this information. **Use it at your own risk.**
+> [!CAUTION]
+> This is provided "as is" without warranty of any kind. I am not responsible for any damage, data loss, or issues caused by the use of this information. **Use it at your own risk.**
