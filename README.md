@@ -1,3 +1,5 @@
+*Notice: This repository is no longer actively maintained and may contain outdated information.*
+
 # 🚀 Universal App Store for Ubuntu
 
 Manage **Snap**, **Flatpak**, and **.deb** packages in one powerful, unified interface.
